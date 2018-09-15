@@ -20,11 +20,18 @@ Intercepting
 
 # Commands: 
 
+`list` (lists all Applications and Programs on your device) if you're using a mobile device then feel free to change the folders from SCDLTLogger.d File.
+
+
 Log `<filename>` (Logs a particular File Data)
 
 
 Send `<Text> <Filename>` (Send Text to a particular File in the Server)
 
+# How to run program 
+install dmd(rdmd) on your system(including gcc for the cpp file) and put:
+` g++ -c SCDLT.cpp
+dmd SCDLTLogger.d Program.o -L-lstdc++ && ./Program`
 # Note:
 
 If you're wondering how You will Log the Server, SCDLT has a built-in logger which all the Traffic that gets logged within the Server will be sent to a generated File that SCDLT will create.
