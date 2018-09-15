@@ -29,7 +29,7 @@ Log `<filename>` (Logs a particular File Data)
 Send `<Text> <Filename>` (Send Text to a particular File in the Server)
 
 # How to run program 
-install dmd(rdmd) on your system(including gcc for the cpp file) and put:
+install dmd(rdmd) on your system(including g++ for the cpp file) and put:
 ` g++ -c SCDLT.cpp
 dmd SCDLTLogger.d Program.o -L-lstdc++ && ./Program`
 # Note:
