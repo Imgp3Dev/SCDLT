@@ -23,6 +23,13 @@ Data.post(Genfile);
 void main() {
 /*****Commands
 *******/
+  foreach (list; %s %u .. $) {
+    /*Lists everything Within those folders*/
+    list* = sys .. /Programs .. /Applications .. %s;
+    if (sys.call = list){
+      writeln(list);
+      return true;
+    }
 foreach (Log; %s [real]%u .. $ .. 
 Traffic) {
 writeln(Genfile);
