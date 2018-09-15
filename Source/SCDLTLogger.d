@@ -42,7 +42,7 @@ Port*/
 auto Response(3)[uint][string] = IP;
 
 auto Response(3)[uint][string] = Port;
-*/Sends Response as Packet*/
+/*Sends Response as Packet*/
 Packet.post(Response);
 /*Response Relies on The strings within the 
 traffic If there are none then it won't 
