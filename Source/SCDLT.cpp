@@ -7,6 +7,8 @@ GenFile.open(Data);
 GenFile.close();
 //For logger file
 Traffic =  k, device, Response;
+  //Generated file name
+  GenFile = Logs.txt;
 //Calls IP
 IP = Data;
 //Calls Port
